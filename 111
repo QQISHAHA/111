@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9.15wed作业</title>
+</head>
+<body>
+    <table border="1" >
+        <tr>
+            <td colspan="2" align="center" width="220" class="first">信息统计表</td>
+        </tr>
+        <tr>
+          <td><label for="name">姓名:&nbsp&nbsp&nbsp&nbsp</label></td>
+          <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+            <td><label for="age">年龄:&nbsp&nbsp&nbsp&nbsp</label></td>
+            <td><input type="text" id="age"></td>
+        </tr>
+        <tr>
+            <td>性别:&nbsp&nbsp&nbsp&nbsp</td>
+            <td>
+               <input type="radio" id="man" name="sex"> <label for="man">男</label>
+               <input type="radio" id="women" name="sex"> <label for="women">女</label>
+            </td>
+        </tr>
+        <tr>
+            <td >爱好:&nbsp&nbsp&nbsp&nbsp</td>
+            <td >
+            <input type="checkbox" name="a" id="1"><label for="1">旅游</label> <br>
+            <input type="checkbox" name="a" id="2"><label for="2">登山</label> <br>
+            <input type="checkbox" name="a" id="3"><label for="3">健身</label> <br>
+            <input type="checkbox" name="a" id="4"><label for="4">上网</label> <br>
+            <input type="checkbox" name="a" id="5"><label for="5">游泳</label> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>学历:&nbsp&nbsp&nbsp&nbsp</td>
+            <td>
+               <select name="degree">
+                <option >--请选择--</option>
+                <option >专科</option>
+                <option >本科</option>
+                <option >硕士</option>
+                <option >博士及以上</option>
+               </select> 
+            </td>
+        </tr>
+        <tr>
+            <td>自我介绍：</td>
+            <td>
+            <textarea name="" id="" cols="25" rows="4" >自我介绍:</textarea>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit">
+                <input type="reset">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
